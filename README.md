@@ -48,6 +48,7 @@ terraform-capital-call/
 │   └── rds/              # RDS instance, security group, parameter group
 
 └── sql/
+
     └── schema.sql        # PostgreSQL schema — run after provisioning
 
 
