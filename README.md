@@ -8,7 +8,7 @@
 
 **Database**
 
-- A PostgreSQL 16 RDS instance deployed into private subnets
+- A PostgreSQL 15 RDS instance deployed into private subnets
 - Encrypted storage at rest, SSL enforced in transit
 - Automated daily backups with a 7-day retention window
 - Enhanced Monitoring and Performance Insights enabled
