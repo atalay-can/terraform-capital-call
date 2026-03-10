@@ -32,18 +32,26 @@
 **Project Structure**
 
 terraform-capital-call/
+
 ├── main.tf               # Root module — wires everything together
+
 ├── variables.tf          # All configurable inputs
+
 ├── outputs.tf            # Key outputs (endpoint, secret ARN, etc.)
+
 ├── versions.tf           # Terraform and provider version constraints
+
 ├── modules/
+
 │   ├── networking/       # VPC, subnets, NAT, route tables
+
 │   └── rds/              # RDS instance, security group, parameter group
+
 └── sql/
     └── schema.sql        # PostgreSQL schema — run after provisioning
 
 
-Requirements
+**Requirements**
 - Terraform >= 1.5.0
 - AWS CLI configured with appropriate permissions
 - PostgreSQL client to run schema.sql post-deploy
