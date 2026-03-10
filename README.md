@@ -49,7 +49,7 @@ terraform-capital-call/
 
 └── sql/
 
-    └── schema.sql        # PostgreSQL schema — run after provisioning
+│   └── schema.sql        # PostgreSQL schema — run after provisioning
 
 
 **Requirements**
